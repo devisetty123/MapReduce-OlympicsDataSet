@@ -1,4 +1,4 @@
-# DIS-P09
+# DIS-P03
 DIS final project team P09
 1.	Pair Number: P17.
 2.	Team Members: Anil, Dasari
@@ -10,9 +10,11 @@ DIS final project team P09
 7.	MapReduce problems: 
 a.	What is the total number of male and female athletes participated.
 b.	What is the total Number of silver medals won by different countries.
-8.	Mapper input: 	  id            name          nationality   sex         dob        height   weight  sport     gold  silver  bronze
+8.	Mapper input: 	 
+						id            name          nationality   sex         dob        height   weight  sport     gold  silver  bronze
 					736041664     A Jesus Garcia     ESP        male      10/17/1969    1.72     64    athletics   0      0      0
 					266237702     Aaron Russell      USA        male       6/4/1993     2.05     98    volleyball  0      0      1
+
 9.	Mapper output/ Reducer input: 
 a.  male	1
 	female	1
@@ -44,5 +46,5 @@ b.	USA	54
 * Step6:- You can edit our files by right clicking on the file you want to edit and choose open with Notepad++ or Notepad.
 * Step7:- Save the files you edited and perfom step 2 - step 5 to check the output for the files you edited.
 
-![Output1 Graph](/Images/Output01_Graph.JPG)
-![Output2 Graph](/Images/Output02_Graph.JPG)
+![Output1 Graph](/Images/Output01_Graph.PNG)
+![Output2 Graph](/Images/Output02_Graph.PNG)
