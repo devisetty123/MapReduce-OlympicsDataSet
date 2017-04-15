@@ -11,7 +11,6 @@ DIS final project team P09
 a.	What is the total number of male and female athletes participated.
 b.	What is the total Number of silver medals won by different countries.
 8.	Mapper input: 	  id            name          nationality   sex         dob        height   weight  sport     gold  silver  bronze
-
 					736041664     A Jesus Garcia     ESP        male      10/17/1969    1.72     64    athletics   0      0      0
 					266237702     Aaron Russell      USA        male       6/4/1993     2.05     98    volleyball  0      0      1
 9.	Mapper output/ Reducer input: 
@@ -34,4 +33,16 @@ b.	USA	54
 11.	Language: Python.
 12.	Process: We are processing numeric data. No data cleaning is required for the data set.
 
-13. GitHub link: https://github.com/devisetty123/MapReduce-OlympicsDataSet . It is a public repository.
+13. GitHub link: https://github.com/devisetty123/MapReduce-OlympicsDataSet . It is a public repository. 
+
+# Steps to run MapReduce problem and check output:
+* Step1:- Clone or Download the project from the URL mentioned above to your local machine.
+* Step2:- Right click on the project and use Git Bash here to run the project. 
+* Step3:- To execute our mapper which takes olympic_dataset.csv as input, use `python mapper.py` , This produces intermediate output in intermediate_output1.txt and intermediate_output2.txt files.
+* Step4:- To sort the output from mapper we will send these intermediate outputs to sort.py Using `python sort.py` command , which produces sort01.txt and sort02.txt as outputs.
+* Step5:- To execute our reducer which takes the sorted outputs from the previous step as input, use `python reducer.py` , This produces outputs in output01.txt and output02.txt files.
+* Step6:- You can edit our files by right clicking on the file you want to edit and choose open with Notepad++ or Notepad.
+* Step7:- Save the files you edited and perfom step 2 - step 5 to check the output for the files you edited.
+
+![Output1 Graph](/Images/Output01_Graph.PNG)
+![Output2 Graph](/Images/Output02_Graph.PNG)
