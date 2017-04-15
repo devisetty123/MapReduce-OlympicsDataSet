@@ -46,5 +46,5 @@ b.	USA	54
 * Step6:- You can edit our files by right clicking on the file you want to edit and choose open with Notepad++ or Notepad.
 * Step7:- Save the files you edited and perfom step 2 - step 5 to check the output for the files you edited.
 
-![Output1 Graph](/Images/Output01_Graph.PNG)
-![Output2 Graph](/Images/Output02_Graph.PNG)
+![Output1 Graph](/Images/Output01_Graph.JPG)
+![Output2 Graph](/Images/Output02_Graph.JPG)
